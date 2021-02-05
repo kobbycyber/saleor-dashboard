@@ -150,6 +150,7 @@ export enum CollectionSortField {
 
 export enum ConfigurationTypeFieldEnum {
   BOOLEAN = "BOOLEAN",
+  MULTILINE = "MULTILINE",
   PASSWORD = "PASSWORD",
   SECRET = "SECRET",
   SECRETMULTILINE = "SECRETMULTILINE",
