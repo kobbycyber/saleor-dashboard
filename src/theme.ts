@@ -244,7 +244,7 @@ const createTheme = (colors: IThemeColors): ITheme =>
           }
         },
         textPrimary: {
-          "& span": {
+          "&:not($disabled) span": {
             color: colors.primary
           }
         }
