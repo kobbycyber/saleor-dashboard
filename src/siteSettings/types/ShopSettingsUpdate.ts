@@ -23,7 +23,7 @@ export interface ShopSettingsUpdate_shopSettingsUpdate_shop_limits_currentUsage 
   warehouses: number | null;
 }
 
-export interface ShopSettingsUpdate_shopSettingsUpdate_shop_limits_maximumUsage {
+export interface ShopSettingsUpdate_shopSettingsUpdate_shop_limits_allowedUsage {
   __typename: "Limits";
   channels: number | null;
   orders: number | null;
@@ -35,7 +35,7 @@ export interface ShopSettingsUpdate_shopSettingsUpdate_shop_limits_maximumUsage 
 export interface ShopSettingsUpdate_shopSettingsUpdate_shop_limits {
   __typename: "LimitInfo";
   currentUsage: ShopSettingsUpdate_shopSettingsUpdate_shop_limits_currentUsage;
-  maximumUsage: ShopSettingsUpdate_shopSettingsUpdate_shop_limits_maximumUsage;
+  allowedUsage: ShopSettingsUpdate_shopSettingsUpdate_shop_limits_allowedUsage;
 }
 
 export interface ShopSettingsUpdate_shopSettingsUpdate_shop_companyAddress_country {
