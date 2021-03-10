@@ -26,6 +26,7 @@ All notable, unreleased changes to this project will be documented in this file.
 - Add product variant webhooks - #1006 by @piotrgrundas
 - Use default sort for search products list - #997 by @orzechdev
 - Handle limit reached error - #990 by @dominik-zeglen
+- Display Cloud limits - #1004 by @dominik-zeglen
 
 # 2.11.1
 
