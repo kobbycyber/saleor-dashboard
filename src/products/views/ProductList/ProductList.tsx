@@ -287,6 +287,7 @@ export const ProductList: React.FC<ProductListProps> = ({ params }) => {
         });
         reset();
         refetch();
+        limitOpts.refetch();
       }
     }
   });
